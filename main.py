@@ -68,8 +68,8 @@ for i in range(40):
         ),
         scale=0.5+(random.random()-0.5)*0.2,
         speedscale=1+(random.random()-0.5)*0.4,
-        startx=random.randint(0,900),
-        starty=random.randint(0,900)
+        startx=random.randint(0,1128),
+        starty=random.randint(0,752)
     ))
 
 running=True

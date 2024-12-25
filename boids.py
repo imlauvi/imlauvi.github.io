@@ -11,7 +11,7 @@ alignmentStrength=168.0
 cohesionStrength=0.000004
 targetStrength=0.002
 centerStrength=0.00001
-center=(450,450)
+center=(564,376)
 
 def boid(positions,rotations,target,dt):
     forces=[[0,0] for i in range(len(positions))]
