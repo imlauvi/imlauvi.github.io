@@ -1,11 +1,13 @@
 import pygame
 import asyncio
+from pygame._sdl2 import Window
 import fish
 import random
 from boids import boid
 
 pygame.init()
-screen=pygame.display.set_mode((1158,752))
+screen=pygame.display.set_mode((1158,752),pygame.RESIZABLE)
+Window.from_display_module().maximize()
 
 color=(220,130,120)
 colorVar=0.1
